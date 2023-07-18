@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <title>Registartion Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="heading">
+        <h1>REGISTRATION FORM</h1>
+    </div>
+
+    <div class="container">
+
+        <div class="information-form">
+            <div class="information">
+                <p>First Name: </p>
+                <input type="text"  size="60" name="firstname" id="firstname">
+            </div>
+    
+            <div class="information">
+                <p>Last Name: </p>
+                <input type="text" size="60" name="lastname" id="lastname">
+            </div>
+    
+            <div class="information">
+                <p> E-mail Address: </p>
+                <input type="text" size="60" name="email" id="email">
+            </div>
+    
+            <div class="information">
+                <p>Mobile no: </p>
+                <input type="text" size="60" name="mobile" id="mobile">
+            </div>
+    
+            <div id="btn">
+                <input type="button" name="button" id="btn" value="Add" onclick="AddRow()" />
+            </div>
+            
+        </div>
+
+        <hr style="font-weight: bold;">
+
+        <div class="table">
+            <table id="show">
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email address</th>
+                        <th>Mobile no</th>
+                    </tr>
+                </thead>
+           </table>
+        </div>        
+
+    </div>    
+         
+    <script src="script.js"></script>
+</body>
+
+</html>
